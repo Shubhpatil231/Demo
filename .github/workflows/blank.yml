@@ -40,7 +40,7 @@ jobs:
         uses: QAInsights/PerfAction@v3.1
         with:
        #  The path to the JMX test file
-         test-plan-path: ./01_iTWOsite_DMS_Change_document_name_via_edit_document_details.jmx
+         test-plan-path: 01_iTWOsite_DMS_Change_document_name_via_edit_document_details.jmx
          #outputReportsFolder: reports/
          args: "" 
          
