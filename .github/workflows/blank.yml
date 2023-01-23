@@ -43,3 +43,9 @@ jobs:
          test-plan-path:: iTWO site performace testing script/01_iTWOsite_DMS_Change document name via edit document details.jmx
          #outputReportsFolder: reports/
          args: "" 
+         
+      - name: Upload Results
+        uses: actions/upload-artifact@v2
+        with:
+          name: jmeter-results
+          path: result.jtl
