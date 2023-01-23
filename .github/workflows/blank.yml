@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Setup Jmeter
-        uses: tush-tr/setup-jmeter@v1.1.0
+        uses: tush-tr/setup-jmeter@2f5355d5d51593c042c82396661c95f5c0588309
 
 #       - name: taurus-action
 #         uses: Rbillon59/taurus-action@v0.1-beta
