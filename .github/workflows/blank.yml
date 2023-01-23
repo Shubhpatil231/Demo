@@ -41,4 +41,5 @@ jobs:
         with:
        #  The path to the JMX test file
          testFilePath: iTWO site performace testing script/01_iTWOsite_DMS_Change document name via edit document details.jmx
-          
+         outputReportsFolder: reports/
+         args: "--loglevel INFO" 
